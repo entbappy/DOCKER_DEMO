@@ -10,4 +10,3 @@ COPY . /opt/app
 
 ENTRYPOINT FLASK_API=/opt/app/app.py flask run --host 0.0.0.0
 
-
